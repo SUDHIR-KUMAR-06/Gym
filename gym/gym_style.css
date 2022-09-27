@@ -1,0 +1,36 @@
+@import "normalize.css";
+body{
+    margin:0px;
+    padding:0px;
+    background: url('gym\ interior.jpg');
+}
+.left{
+    display: inline-block;
+    border: 2px solid red;
+    position: absolute;
+    left: 34px;
+    top:20px;
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    border: 2px solid rgb(170, 134, 134);  
+    
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+   display: inline-block;
+    border: 2px solid rgb(113, 177, 236);
+}
+.navbar li{
+    
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
